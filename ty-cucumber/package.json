@@ -1,0 +1,19 @@
+{
+  "name": "ty-cucumber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "tsc && cucumber-js features/"
+  },
+  "keywords": [],
+  "author": "",
+  "description": "",
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/cucumber": "^6.0.1",
+    "chai": "^4.2.0",
+    "cucumber": "^6.0.5"
+  },
+  "build": "tsc"
+}
